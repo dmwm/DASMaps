@@ -1,4 +1,3 @@
-{"value": "DATA"}
 {"value": "align"}
 {"value": "calib"}
 {"value": "cosmic"}

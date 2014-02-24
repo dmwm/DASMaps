@@ -7,6 +7,7 @@
 {"value": "CERN-PROD"}
 {"value": "CERN-PROD-AI"}
 {"value": "CERN-PROD-HLT"}
+{"value": "CERN-PROD-T0"}
 {"value": "CIEMAT-LCG2"}
 {"value": "CIT_CMS_T2"}
 {"value": "CN-BEIJING-PKU"}
@@ -24,7 +25,6 @@
 {"value": "GR-07-UOI-HEPLAB"}
 {"value": "GRIF"}
 {"value": "GROW-PROD"}
-{"value": "HEPGRID_UERJ"}
 {"value": "HG-02-IASA"}
 {"value": "Hephy-Vienna"}
 {"value": "ICM"}
@@ -62,11 +62,14 @@
 {"value": "NCP-LCG2"}
 {"value": "NU Tier3"}
 {"value": "NWICG_NDCMS"}
+{"value": "NYSGRID-CCR-U2"}
 {"value": "NYSGRID_CORNELL_NYS1"}
 {"value": "NZ-UOA"}
 {"value": "Nebraska"}
+{"value": "Northeastern"}
 {"value": "Princeton"}
 {"value": "Purdue-Carter"}
+{"value": "Purdue-Conte"}
 {"value": "Purdue-Hansen"}
 {"value": "Purdue-RCAC"}
 {"value": "Purdue-Rossmann"}
@@ -94,6 +97,7 @@
 {"value": "T1_ES_PIC_MSS"}
 {"value": "T1_FR_CCIN2P3"}
 {"value": "T1_FR_CCIN2P3_Buffer"}
+{"value": "T1_FR_CCIN2P3_Disk"}
 {"value": "T1_FR_CCIN2P3_MSS"}
 {"value": "T1_IT_CNAF"}
 {"value": "T1_IT_CNAF_Buffer"}
@@ -103,7 +107,6 @@
 {"value": "T1_RU_JINR_Buffer"}
 {"value": "T1_RU_JINR_Disk"}
 {"value": "T1_RU_JINR_MSS"}
-{"value": "T1_RU_JINR_Stage"}
 {"value": "T1_TW_ASGC"}
 {"value": "T1_TW_ASGC_Buffer"}
 {"value": "T1_TW_ASGC_MSS"}
@@ -126,6 +129,7 @@
 {"value": "T2_CH_CERN"}
 {"value": "T2_CH_CERN_AI"}
 {"value": "T2_CH_CERN_HLT"}
+{"value": "T2_CH_CERN_T0"}
 {"value": "T2_CH_CSCS"}
 {"value": "T2_CN_Beijing"}
 {"value": "T2_DE_DESY"}
@@ -174,6 +178,7 @@
 {"value": "T2_US_UCSD"}
 {"value": "T2_US_Vanderbilt"}
 {"value": "T2_US_Wisconsin"}
+{"value": "T3_AS_Parrot"}
 {"value": "T3_BY_NCPHEP"}
 {"value": "T3_CH_PSI"}
 {"value": "T3_CN_PKU"}
@@ -185,6 +190,8 @@
 {"value": "T3_GR_IASA"}
 {"value": "T3_GR_IASA_GR"}
 {"value": "T3_GR_IASA_HG"}
+{"value": "T3_HR_IRB"}
+{"value": "T3_IN_PUHEP"}
 {"value": "T3_IR_IPM"}
 {"value": "T3_IT_Bologna"}
 {"value": "T3_IT_Firenze"}
@@ -218,6 +225,7 @@
 {"value": "T3_US_Kansas"}
 {"value": "T3_US_MIT"}
 {"value": "T3_US_Minnesota"}
+{"value": "T3_US_NEU"}
 {"value": "T3_US_NU"}
 {"value": "T3_US_NotreDame"}
 {"value": "T3_US_OSU"}
@@ -231,6 +239,7 @@
 {"value": "T3_US_Rutgers"}
 {"value": "T3_US_TAMU"}
 {"value": "T3_US_TTU"}
+{"value": "T3_US_UB"}
 {"value": "T3_US_UCD"}
 {"value": "T3_US_UCR"}
 {"value": "T3_US_UIowa"}
@@ -250,6 +259,7 @@
 {"value": "UCSDT2"}
 {"value": "UCSDT2-B"}
 {"value": "UColorado_HEP"}
+{"value": "UERJ"}
 {"value": "UFlorida-HPC"}
 {"value": "UKI-LT2-Brunel"}
 {"value": "UKI-LT2-IC-HEP"}
@@ -274,12 +284,15 @@
 {"value": "Vanderbilt_EC2"}
 {"value": "brown-cms-new"}
 {"value": "cinvestav"}
+{"value": "egee.irb.hr"}
+{"value": "grid.puhep.res.in"}
 {"value": "osu-cms"}
 {"value": "pic"}
 {"value": "ru-Moscow-FIAN-LCG2"}
 {"value": "ru-Moscow-SINP-LCG2"}
 {"value": "ru-PNPI"}
 {"value": "rutgers-cms"}
+{"value": "t3asparrot"}
 {"value": "t3euparrot"}
 {"value": "t3usparrot"}
 {"value": "t3usparrottest"}
