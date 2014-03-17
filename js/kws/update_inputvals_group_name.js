@@ -1,61 +1,44 @@
-{ "_id" : { "$oid" : "51c966fb579d712dc140321a" }, "ts" : 1393238222.546696, "value" : "ALLGROUP" }
-{ "_id" : { "$oid" : "51c966fb579d712dc140321b" }, "ts" : 1393238222.546696, "value" : "Analysis" }
-{ "_id" : { "$oid" : "51c966fb579d712dc140321c" }, "ts" : 1393238222.546696, "value" : "AnalysisOps" }
-{ "_id" : { "$oid" : "51c966fb579d712dc140321d" }, "ts" : 1393238222.546696, "value" : "Any" }
-{ "_id" : { "$oid" : "51c966fb579d712dc140321e" }, "ts" : 1393238222.546696, "value" : "B2G" }
-{ "_id" : { "$oid" : "51c966fb579d712dc140321f" }, "ts" : 1393238222.546696, "value" : "BoostedTop" }
-{ "_id" : { "$oid" : "51c966fb579d712dc1403220" }, "ts" : 1393238222.546696, "value" : "Bphys" }
-{ "_id" : { "$oid" : "51c966fb579d712dc1403221" }, "ts" : 1393238222.546696, "value" : "Btag" }
-{ "_id" : { "$oid" : "51c966fb579d712dc1403222" }, "ts" : 1393238222.546696, "value" : "COMMON" }
-{ "_id" : { "$oid" : "51c966fb579d712dc1403223" }, "ts" : 1393238222.546696, "value" : "CSA07" }
-{ "_id" : { "$oid" : "51c966fb579d712dc1403224" }, "ts" : 1393238222.546696, "value" : "DPG" }
-{ "_id" : { "$oid" : "51c966fb579d712dc1403225" }, "ts" : 1393238222.546696, "value" : "DataOOps" }
-{ "_id" : { "$oid" : "51c966fb579d712dc1403226" }, "ts" : 1393238222.546696, "value" : "DataOps" }
-{ "_id" : { "$oid" : "51c966fb579d712dc1403227" }, "ts" : 1393238222.546696, "value" : "Diffraction" }
-{ "_id" : { "$oid" : "51c966fb579d712dc1403228" }, "ts" : 1393238222.546696, "value" : "EWK" }
-{ "_id" : { "$oid" : "51c966fb579d712dc1403229" }, "ts" : 1393238222.546696, "value" : "Egamma" }
-{ "_id" : { "$oid" : "51c966fb579d712dc140322a" }, "ts" : 1393238222.546696, "value" : "FastSim" }
-{ "_id" : { "$oid" : "51c966fb579d712dc140322b" }, "ts" : 1393238222.546696, "value" : "Generator" }
-{ "_id" : { "$oid" : "51c966fb579d712dc140322c" }, "ts" : 1393238222.546696, "value" : "Generators" }
-{ "_id" : { "$oid" : "51c966fb579d712dc140322d" }, "ts" : 1393238222.546696, "value" : "HCAL" }
-{ "_id" : { "$oid" : "51c966fb579d712dc140322e" }, "ts" : 1393238222.546696, "value" : "HI" }
-{ "_id" : { "$oid" : "51c966fb579d712dc140322f" }, "ts" : 1393238222.546696, "value" : "HeavyIon" }
-{ "_id" : { "$oid" : "51c966fb579d712dc1403230" }, "ts" : 1393238222.546696, "value" : "HeavyIonPhysics" }
-{ "_id" : { "$oid" : "51c966fb579d712dc1403231" }, "ts" : 1393238222.546696, "value" : "Higgs" }
-{ "_id" : { "$oid" : "51c966fb579d712dc1403232" }, "ts" : 1393238222.546696, "value" : "Individual" }
-{ "_id" : { "$oid" : "51c966fb579d712dc1403233" }, "ts" : 1393238222.546696, "value" : "JetMet" }
-{ "_id" : { "$oid" : "51c966fb579d712dc1403234" }, "ts" : 1393238222.546696, "value" : "Maarten" }
-{ "_id" : { "$oid" : "51c966fb579d712dc1403235" }, "ts" : 1393238222.546696, "value" : "Muons" }
-{ "_id" : { "$oid" : "51c966fb579d712dc1403236" }, "ts" : 1393238222.546696, "value" : "NoGroup" }
-{ "_id" : { "$oid" : "51c966fb579d712dc1403237" }, "ts" : 1393238222.546696, "value" : "OnSel" }
-{ "_id" : { "$oid" : "51c966fb579d712dc1403238" }, "ts" : 1393238222.546696, "value" : "PFlowTau" }
-{ "_id" : { "$oid" : "51c966fb579d712dc1403239" }, "ts" : 1393238222.546696, "value" : "PhysVal" }
-{ "_id" : { "$oid" : "51c966fb579d712dc140323a" }, "ts" : 1393238222.546696, "value" : "Physics" }
-{ "_id" : { "$oid" : "51c966fb579d712dc140323b" }, "ts" : 1393238222.546696, "value" : "QCD" }
-{ "_id" : { "$oid" : "51c966fb579d712dc140323c" }, "ts" : 1393238222.546696, "value" : "RelVal" }
-{ "_id" : { "$oid" : "51c966fb579d712dc140323d" }, "ts" : 1393238222.546696, "value" : "SUSY" }
-{ "_id" : { "$oid" : "51c966fb579d712dc140323e" }, "ts" : 1393238222.546696, "value" : "SUSYBSM" }
-{ "_id" : { "$oid" : "51c966fb579d712dc140323f" }, "ts" : 1393238222.546696, "value" : "TEST" }
-{ "_id" : { "$oid" : "51c966fb579d712dc1403240" }, "ts" : 1393238222.546696, "value" : "TOP" }
-{ "_id" : { "$oid" : "51c966fb579d712dc1403241" }, "ts" : 1393238222.546696, "value" : "Tier0" }
-{ "_id" : { "$oid" : "51c966fb579d712dc1403242" }, "ts" : 1393238222.546696, "value" : "Top" }
-{ "_id" : { "$oid" : "51c966fb579d712dc1403243" }, "ts" : 1393238222.546696, "value" : "Tracker" }
-{ "_id" : { "$oid" : "51c966fb579d712dc1403244" }, "ts" : 1393238222.546696, "value" : "Trigger" }
-{ "_id" : { "$oid" : "51c966fb579d712dc1403245" }, "ts" : 1393238222.546696, "value" : "UCSD" }
-{ "_id" : { "$oid" : "51c966fb579d712dc1403246" }, "ts" : 1393238222.546696, "value" : "b-physics" }
-{ "_id" : { "$oid" : "51c966fb579d712dc1403247" }, "ts" : 1393238222.546696, "value" : "b-tagging" }
-{ "_id" : { "$oid" : "51c966fb579d712dc1403248" }, "ts" : 1393238222.546696, "value" : "data" }
-{ "_id" : { "$oid" : "51c966fb579d712dc1403249" }, "ts" : 1393238222.546696, "value" : "dataOps" }
-{ "_id" : { "$oid" : "51c966fb579d712dc140324a" }, "ts" : 1393238222.546696, "value" : "e-gamma_ecal" }
-{ "_id" : { "$oid" : "51c966fb579d712dc140324b" }, "ts" : 1393238222.546696, "value" : "ewk" }
-{ "_id" : { "$oid" : "51c966fb579d712dc140324c" }, "ts" : 1393238222.546696, "value" : "exotica" }
-{ "_id" : { "$oid" : "51c966fb579d712dc140324d" }, "ts" : 1393238222.546696, "value" : "forward" }
-{ "_id" : { "$oid" : "51c966fb579d712dc140324e" }, "ts" : 1393238222.546696, "value" : "heavy-ions" }
-{ "_id" : { "$oid" : "51c966fb579d712dc140324f" }, "ts" : 1393238222.546696, "value" : "higgs" }
-{ "_id" : { "$oid" : "51c966fb579d712dc1403250" }, "ts" : 1393238222.546696, "value" : "jets-met_hcal" }
-{ "_id" : { "$oid" : "51c966fb579d712dc1403251" }, "ts" : 1393238222.546696, "value" : "muon" }
-{ "_id" : { "$oid" : "51c966fb579d712dc1403252" }, "ts" : 1393238222.546696, "value" : "susy" }
-{ "_id" : { "$oid" : "51c966fb579d712dc1403253" }, "ts" : 1393238222.546696, "value" : "tau-pflow" }
-{ "_id" : { "$oid" : "51c966fb579d712dc1403254" }, "ts" : 1393238222.546696, "value" : "test" }
-{ "_id" : { "$oid" : "51c966fb579d712dc1403255" }, "ts" : 1393238222.546696, "value" : "top" }
-{ "_id" : { "$oid" : "51c966fb579d712dc1403256" }, "ts" : 1393238222.546696, "value" : "tracker-pog" }
+{"ts": 1395010707, "value": "upgrade"}
+{"ts": 1395010707, "value": "trigger"}
+{"ts": 1395010707, "value": "tracker-pog"}
+{"ts": 1395010707, "value": "tracker-dpg"}
+{"ts": 1395010707, "value": "tau-pflow"}
+{"ts": 1395010707, "value": "susy"}
+{"ts": 1395010707, "value": "top"}
+{"ts": 1395010707, "value": "site"}
+{"ts": 1395010707, "value": "phedex"}
+{"ts": 1395010707, "value": "muon"}
+{"ts": 1395010707, "value": "local"}
+{"ts": 1395010707, "value": "jets-met_hcal"}
+{"ts": 1395010707, "value": "higgs"}
+{"ts": 1395010707, "value": "heavy-ions"}
+{"ts": 1395010707, "value": "global"}
+{"ts": 1395010707, "value": "forward"}
+{"ts": 1395010707, "value": "express"}
+{"ts": 1395010707, "value": "exotica"}
+{"ts": 1395010707, "value": "ewk"}
+{"ts": 1395010707, "value": "e-gamma_ecal"}
+{"ts": 1395010707, "value": "dqm"}
+{"ts": 1395010707, "value": "deprecated-undefined"}
+{"ts": 1395010707, "value": "deprecated-qcd"}
+{"ts": 1395010707, "value": "deprecated-ewk"}
+{"ts": 1395010707, "value": "caf-phys"}
+{"ts": 1395010707, "value": "caf-lumi"}
+{"ts": 1395010707, "value": "caf-comm"}
+{"ts": 1395010707, "value": "caf-alca"}
+{"ts": 1395010707, "value": "b-tagging"}
+{"ts": 1395010707, "value": "b-physics"}
+{"ts": 1395010707, "value": "alertscollector"}
+{"ts": 1395010707, "value": "SiteDB"}
+{"ts": 1395010707, "value": "SMP"}
+{"ts": 1395010707, "value": "ReqMgr"}
+{"ts": 1395010707, "value": "RelVal"}
+{"ts": 1395010707, "value": "IB RelVal"}
+{"ts": 1395010707, "value": "FacOps"}
+{"ts": 1395010707, "value": "DataOps"}
+{"ts": 1395010707, "value": "DBS"}
+{"ts": 1395010707, "value": "DAS"}
+{"ts": 1395010707, "value": "CondDB"}
+{"ts": 1395010707, "value": "B2G"}
+{"ts": 1395010707, "value": "AnalysisOps"}
+{"ts": 1395010707, "value": "ASO"}
