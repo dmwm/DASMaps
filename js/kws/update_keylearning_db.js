@@ -12,8 +12,8 @@
 {"keys": ["dataset", "run", "lumi"], "urn": "run_lumi4dataset", "system": "dbs3", "members": ["run.run_number", "lumi.number"]}
 {"member": "run.run_number", "stems": ["run", "run_number"]}
 {"member": "lumi.number", "stems": ["lumi", "number"]}
-{"keys": ["run"], "urn": "get_run_info", "system": "conddb", "members": ["run.end_time", "run.modification_time", "run.lumi_section_ranges", "run.stop_reason", "run.triggers", "run.start_time", "run.group_name", "run.nlumis", "run.hltkey", "run.creation_time", "run.delivered_lumi", "run.beam_e", "run.lhcFill", "run.duration", "run.run_number", "run.l1key", "run.bfield", "run.gtkey"]}
-{"member": "run.end_time", "stems": ["run", "end_time"]}
+{"keys": ["run"], "urn": "get_run_info", "system": "conddb", "members": ["run.gtkey", "run.modification_time", "run.lumi_section_ranges", "run.stop_reason", "run.triggers", "run.start_time", "run.group_name", "run.nlumis", "run.hltkey", "run.creation_time", "run.delivered_lumi", "run.beam_e", "run.lhcFill", "run.duration", "run.run_number", "run.l1key", "run.bfield", "run.end_time"]}
+{"member": "run.gtkey", "stems": ["run", "gtkey"]}
 {"member": "run.modification_time", "stems": ["run", "modification_time"]}
 {"member": "run.lumi_section_ranges", "stems": ["run", "lumi_section_ranges"]}
 {"member": "run.stop_reason", "stems": ["run", "stop_reason"]}
@@ -30,9 +30,9 @@
 {"member": "run.run_number", "stems": ["run", "run_number"]}
 {"member": "run.l1key", "stems": ["run", "l1key"]}
 {"member": "run.bfield", "stems": ["run", "bfield"]}
-{"member": "run.gtkey", "stems": ["run", "gtkey"]}
-{"keys": ["run"], "urn": "get_run_info", "system": "conddb", "members": ["run.end_time", "run.modification_time", "run.lumi_section_ranges", "run.stop_reason", "run.triggers", "run.start_time", "run.group_name", "run.nlumis", "run.hltkey", "run.creation_time", "run.delivered_lumi", "run.beam_e", "run.lhcFill", "run.duration", "run.run_number", "run.l1key", "run.bfield", "run.gtkey"]}
 {"member": "run.end_time", "stems": ["run", "end_time"]}
+{"keys": ["run"], "urn": "get_run_info", "system": "conddb", "members": ["run.gtkey", "run.modification_time", "run.lumi_section_ranges", "run.stop_reason", "run.triggers", "run.start_time", "run.group_name", "run.nlumis", "run.hltkey", "run.creation_time", "run.delivered_lumi", "run.beam_e", "run.lhcFill", "run.duration", "run.run_number", "run.l1key", "run.bfield", "run.end_time"]}
+{"member": "run.gtkey", "stems": ["run", "gtkey"]}
 {"member": "run.modification_time", "stems": ["run", "modification_time"]}
 {"member": "run.lumi_section_ranges", "stems": ["run", "lumi_section_ranges"]}
 {"member": "run.stop_reason", "stems": ["run", "stop_reason"]}
@@ -49,10 +49,11 @@
 {"member": "run.run_number", "stems": ["run", "run_number"]}
 {"member": "run.l1key", "stems": ["run", "l1key"]}
 {"member": "run.bfield", "stems": ["run", "bfield"]}
-{"member": "run.gtkey", "stems": ["run", "gtkey"]}
-{"keys": ["dataset"], "urn": "dataset_info", "system": "dbs3", "members": ["dataset.nblocks", "dataset.creation_time", "dataset.name", "dataset.prep_id", "dataset.status", "dataset.data_tier_name", "dataset.dataset_id", "dataset.modified_by", "dataset.created_by", "dataset.nevents", "dataset.modification_time", "dataset.datatype", "dataset.nfiles", "dataset.processing_version", "dataset.physics_group_name", "dataset.processed_ds_name", "dataset.nlumis", "dataset.primary_dataset.name", "dataset.xtcrosssection", "dataset.acquisition_era_name", "dataset.size"]}
+{"member": "run.end_time", "stems": ["run", "end_time"]}
+{"keys": ["dataset"], "urn": "filesummaries", "system": "dbs3", "members": ["dataset.nblocks", "dataset.creation_time", "dataset.nevents", "dataset.name", "dataset.prep_id", "dataset.status", "dataset.data_tier_name", "dataset.dataset_id", "dataset.modified_by", "dataset.created_by", "dataset.modification_time", "dataset.datatype", "dataset.nfiles", "dataset.processing_version", "dataset.physics_group_name", "dataset.size", "dataset.nlumis", "dataset.primary_dataset.name", "dataset.xtcrosssection", "dataset.acquisition_era_name", "dataset.processed_ds_name"]}
 {"member": "dataset.nblocks", "stems": ["dataset", "nblocks"]}
 {"member": "dataset.creation_time", "stems": ["dataset", "creation_time"]}
+{"member": "dataset.nevents", "stems": ["dataset", "nevents"]}
 {"member": "dataset.name", "stems": ["dataset", "name"]}
 {"member": "dataset.prep_id", "stems": ["dataset", "prep_id"]}
 {"member": "dataset.status", "stems": ["dataset", "status"]}
@@ -60,18 +61,17 @@
 {"member": "dataset.dataset_id", "stems": ["dataset", "dataset_id"]}
 {"member": "dataset.modified_by", "stems": ["dataset", "modified_by"]}
 {"member": "dataset.created_by", "stems": ["dataset", "created_by"]}
-{"member": "dataset.nevents", "stems": ["dataset", "nevents"]}
 {"member": "dataset.modification_time", "stems": ["dataset", "modification_time"]}
 {"member": "dataset.datatype", "stems": ["dataset", "datatype"]}
 {"member": "dataset.nfiles", "stems": ["dataset", "nfiles"]}
 {"member": "dataset.processing_version", "stems": ["dataset", "processing_version"]}
 {"member": "dataset.physics_group_name", "stems": ["dataset", "physics_group_name"]}
-{"member": "dataset.processed_ds_name", "stems": ["dataset", "processed_ds_name"]}
+{"member": "dataset.size", "stems": ["dataset", "size"]}
 {"member": "dataset.nlumis", "stems": ["dataset", "nlumis"]}
 {"member": "dataset.primary_dataset.name", "stems": ["dataset", "primary_dataset", "name"]}
 {"member": "dataset.xtcrosssection", "stems": ["dataset", "xtcrosssection"]}
 {"member": "dataset.acquisition_era_name", "stems": ["dataset", "acquisition_era_name"]}
-{"member": "dataset.size", "stems": ["dataset", "size"]}
+{"member": "dataset.processed_ds_name", "stems": ["dataset", "processed_ds_name"]}
 {"keys": ["dataset", "summary"], "urn": "summary4dataset_run", "system": "dbs3", "members": ["summary.nevents", "summary.nblocks", "summary.file_size", "summary.nlumis", "summary.nfiles"]}
 {"member": "summary.nevents", "stems": ["summary", "nevents"]}
 {"member": "summary.nblocks", "stems": ["summary", "nblocks"]}
@@ -130,11 +130,11 @@
 {"member": "block.created_by", "stems": ["block", "created_by"]}
 {"member": "block.replica.modification_time", "stems": ["block", "replica", "modification_time"]}
 {"member": "block.replica.custodial", "stems": ["block", "replica", "custodial"]}
-{"keys": ["file"], "urn": "fileReplicas4file", "system": "phedex", "members": ["file.id", "file.replica.node_id", "file.auto_cross_section", "file.dataset_id", "file.size", "file.replica.creation_time", "file.block.name", "file.name", "file.nevents", "file.modification_time", "file.block_id", "file.creation_time", "file.md5", "file.branch_hash_id", "file.replica.site", "file.checksum", "file.type", "file.modified_by", "file.replica.subscribed", "file.replica.custodial", "file.created_by", "file.check_sum", "file.file_id", "file.adler32", "file.is_file_valid", "file.replica.group", "file.file_type_id", "file.dataset", "file.replica.se", "file.original_node"]}
+{"keys": ["file"], "urn": "fileReplicas4file", "system": "phedex", "members": ["file.id", "file.replica.node_id", "file.auto_cross_section", "file.modified_by", "file.size", "file.replica.creation_time", "file.block.name", "file.name", "file.nevents", "file.modification_time", "file.block_id", "file.creation_time", "file.md5", "file.branch_hash_id", "file.replica.site", "file.checksum", "file.type", "file.dataset_id", "file.replica.subscribed", "file.replica.custodial", "file.created_by", "file.check_sum", "file.file_id", "file.adler32", "file.is_file_valid", "file.replica.group", "file.file_type_id", "file.dataset", "file.replica.se", "file.original_node"]}
 {"member": "file.id", "stems": ["file", "id"]}
 {"member": "file.replica.node_id", "stems": ["file", "replica", "node_id"]}
 {"member": "file.auto_cross_section", "stems": ["file", "auto_cross_section"]}
-{"member": "file.dataset_id", "stems": ["file", "dataset_id"]}
+{"member": "file.modified_by", "stems": ["file", "modified_by"]}
 {"member": "file.size", "stems": ["file", "size"]}
 {"member": "file.replica.creation_time", "stems": ["file", "replica", "creation_time"]}
 {"member": "file.block.name", "stems": ["file", "block", "name"]}
@@ -148,7 +148,7 @@
 {"member": "file.replica.site", "stems": ["file", "replica", "site"]}
 {"member": "file.checksum", "stems": ["file", "checksum"]}
 {"member": "file.type", "stems": ["file", "type"]}
-{"member": "file.modified_by", "stems": ["file", "modified_by"]}
+{"member": "file.dataset_id", "stems": ["file", "dataset_id"]}
 {"member": "file.replica.subscribed", "stems": ["file", "replica", "subscribed"]}
 {"member": "file.replica.custodial", "stems": ["file", "replica", "custodial"]}
 {"member": "file.created_by", "stems": ["file", "created_by"]}
@@ -194,14 +194,14 @@
 {"member": "group.physics_group_name", "stems": ["group", "physics_group_name"]}
 {"member": "group.role", "stems": ["group", "role"]}
 {"member": "group.name", "stems": ["group", "name"]}
-{"keys": ["site", "dataset"], "urn": "site4dataset", "system": "combined", "members": ["site.block_completion", "site.dataset_fraction", "site.se", "site.replica_fraction", "site.block_fraction", "site.name"]}
+{"keys": ["site", "dataset"], "urn": "site4dataset", "system": "phedex", "members": ["site.block_completion", "site.replica_fraction", "site.se", "site.dataset_fraction", "site.block_fraction", "site.name"]}
 {"member": "site.block_completion", "stems": ["site", "block_completion"]}
-{"member": "site.dataset_fraction", "stems": ["site", "dataset_fraction"]}
-{"member": "site.se", "stems": ["site", "se"]}
 {"member": "site.replica_fraction", "stems": ["site", "replica_fraction"]}
+{"member": "site.se", "stems": ["site", "se"]}
+{"member": "site.dataset_fraction", "stems": ["site", "dataset_fraction"]}
 {"member": "site.block_fraction", "stems": ["site", "block_fraction"]}
 {"member": "site.name", "stems": ["site", "name"]}
-{"keys": ["run", "lumi"], "urn": "runsummaries", "system": "dbs3", "members": ["lumi.max_lumi"]}
+{"keys": ["run", "lumi"], "urn": "rr_xmlrpc_lumis", "system": "runregistry", "members": ["lumi.max_lumi"]}
 {"member": "lumi.max_lumi", "stems": ["lumi", "max_lumi"]}
 {"keys": ["date", "jobsummary"], "urn": "jobsummary-plot-or-table", "system": "dashboard", "members": ["jobsummary.activity", "jobsummary.submissiontool", "jobsummary.rb", "jobsummary.application", "jobsummary.terminated", "jobsummary.date1", "jobsummary.date2", "jobsummary.grid", "jobsummary.user", "jobsummary.site-calc-failed", "jobsummary.ce", "jobsummary.app-unknown", "jobsummary.user-failed", "jobsummary.check", "jobsummary.cpu", "jobsummary.wc", "jobsummary.events", "jobsummary.cancelled", "jobsummary.jobtype", "jobsummary.app-succeeded", "jobsummary.application-failed", "jobsummary.unk-failed", "jobsummary.tier", "jobsummary.running", "jobsummary.site", "jobsummary.app-failed", "jobsummary.grid-unknown", "jobsummary.dataset", "jobsummary.allunk", "jobsummary.unsuccess", "jobsummary.pending", "jobsummary.submitted", "jobsummary.site-failed", "jobsummary.unknown", "jobsummary.aborted", "jobsummary.name", "jobsummary.done", "jobsummary.applic-failed"]}
 {"member": "jobsummary.activity", "stems": ["jobsummary", "activity"]}
